@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B105E672-E31A-4FDD-91F1-9C22F3C0BE6B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlfaPay.Web.Frontoffice", "src\AlfaPay.Web.Frontoffice\AlfaPay.Web.Frontoffice.xproj", "{F1753BE1-458C-4D28-8DA1-20F3D6CD0726}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlfaPay.Web.Frontoffice.Models", "src\AlfaPay.Web.Frontoffice.Models\AlfaPay.Web.Frontoffice.Models.xproj", "{6D0261C6-9CA5-49AA-B1D0-7A0993596865}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AlfaPay.Web.Frontoffice.Api", "src\AlfaPay.Web.Frontoffice.Api\AlfaPay.Web.Frontoffice.Api.xproj", "{A60F33D0-B8DC-4937-9905-D0038F0B7FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1753BE1-458C-4D28-8DA1-20F3D6CD0726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1753BE1-458C-4D28-8DA1-20F3D6CD0726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1753BE1-458C-4D28-8DA1-20F3D6CD0726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1753BE1-458C-4D28-8DA1-20F3D6CD0726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0261C6-9CA5-49AA-B1D0-7A0993596865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0261C6-9CA5-49AA-B1D0-7A0993596865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0261C6-9CA5-49AA-B1D0-7A0993596865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0261C6-9CA5-49AA-B1D0-7A0993596865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60F33D0-B8DC-4937-9905-D0038F0B7FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60F33D0-B8DC-4937-9905-D0038F0B7FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60F33D0-B8DC-4937-9905-D0038F0B7FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60F33D0-B8DC-4937-9905-D0038F0B7FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1753BE1-458C-4D28-8DA1-20F3D6CD0726} = {B105E672-E31A-4FDD-91F1-9C22F3C0BE6B}
+		{6D0261C6-9CA5-49AA-B1D0-7A0993596865} = {B105E672-E31A-4FDD-91F1-9C22F3C0BE6B}
+		{A60F33D0-B8DC-4937-9905-D0038F0B7FD9} = {B105E672-E31A-4FDD-91F1-9C22F3C0BE6B}
+	EndGlobalSection
+EndGlobal
