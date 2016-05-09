@@ -14,3 +14,16 @@ namespace AlfaPay.Web.Frontoffice.Api.Controllers
 		}
 	}
 }
+
+
+/*
+  - Membership: reg/auth;
+  - Transfer: init+3DSecure/comission/state;
+  - Card: info/add/get/update/delete/id
+  - Template: get/delete/update
+  - History: all/one
+*/
+
+/*
+	npm 
+*/

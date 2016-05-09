@@ -7,8 +7,6 @@ namespace AlfaPay.Web.Frontoffice
     {
 		protected override void Load(ContainerBuilder builder)
 		{
-			builder.RegisterModule<Api.IocModule>();
-
 			base.Load(builder);
 		}
 	}
